@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Leyikun G. - Profile</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Updated: Jan 09 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+           
+   
+  <!-- ======= Header ======= -->
+  <header id="header">
+     <!-- <span class="change" style="float: right;"><i class=""> </i></span> -->
+ 
+<span class="ah " id="themeSwitcherWhite"  style="float: right; display: none;"  onclick="whiteBg()">
+
+<svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_420_119)">
+<path d="M11.5658 16.4998C10.1071 16.4998 8.70815 15.9204 7.6767 14.8889C6.64525 13.8575 6.06579 12.4585 6.06579 10.9998C6.06579 9.54115 6.64525 8.1422 7.6767 7.11075C8.70815 6.0793 10.1071 5.49984 11.5658 5.49984C13.0245 5.49984 14.4234 6.0793 15.4549 7.11075C16.4863 8.1422 17.0658 9.54115 17.0658 10.9998C17.0658 12.4585 16.4863 13.8575 15.4549 14.8889C14.4234 15.9204 13.0245 16.4998 11.5658 16.4998ZM11.5658 14.6665C12.5382 14.6665 13.4709 14.2802 14.1585 13.5926C14.8461 12.9049 15.2325 11.9723 15.2325 10.9998C15.2325 10.0274 14.8461 9.09475 14.1585 8.40711C13.4709 7.71948 12.5382 7.33317 11.5658 7.33317C10.5933 7.33317 9.6607 7.71948 8.97306 8.40711C8.28543 9.09475 7.89912 10.0274 7.89912 10.9998C7.89912 11.9723 8.28543 12.9049 8.97306 13.5926C9.6607 14.2802 10.5933 14.6665 11.5658 14.6665ZM10.6491 0.916504H12.4825V3.6665H10.6491V0.916504ZM10.6491 18.3332H12.4825V21.0832H10.6491V18.3332ZM3.78787 4.51809L5.08404 3.22192L7.02829 5.16617L5.73212 6.46234L3.78787 4.519V4.51809ZM16.1033 16.8335L17.3995 15.5373L19.3437 17.4816L18.0475 18.7778L16.1033 16.8335ZM18.0475 3.221L19.3437 4.51809L17.3995 6.46234L16.1033 5.16617L18.0475 3.22192V3.221ZM5.73212 15.5373L7.02829 16.8335L5.08404 18.7778L3.78787 17.4816L5.73212 15.5373ZM21.6491 10.0832V11.9165H18.8991V10.0832H21.6491ZM4.23245 10.0832V11.9165H1.48245V10.0832H4.23245Z" fill="white"></path>
+</g>
+<defs>
+<clipPath id="clip0_420_119">
+<rect width="22" height="22" fill="white"  ></rect>
+</clipPath>
+</defs>
+</svg>
+</span> 
+
+<span class="ak dark:ah" id="themeSwitcherDark" style="float: right;"  onclick="myFunction()" >
+<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_420_119)">
+<path d="M8.40276 5.88205C8.40259 7.05058 8.75048 8.19267 9.40204 9.16268C10.0536 10.1327 10.9793 10.8866 12.0611 11.3284C13.143 11.7701 14.3318 11.8796 15.4761 11.6429C16.6204 11.4062 17.6683 10.8341 18.4861 9.99941V10.0834C18.4861 14.7243 14.7242 18.4862 10.0833 18.4862C5.44247 18.4862 1.68054 14.7243 1.68054 10.0834C1.68054 5.44259 5.44247 1.68066 10.0833 1.68066H10.1673C9.60775 2.22779 9.16333 2.88139 8.86028 3.60295C8.55722 4.32451 8.40166 5.09943 8.40276 5.88205V5.88205ZM3.3611 10.0834C3.36049 11.5833 3.86151 13.0403 4.78444 14.2226C5.70737 15.4049 6.99919 16.2446 8.45437 16.608C9.90954 16.9715 11.4445 16.8379 12.8149 16.2284C14.1854 15.6189 15.3127 14.5686 16.0174 13.2446C14.7632 13.54 13.4543 13.5102 12.215 13.1578C10.9756 12.8054 9.84679 12.1422 8.93568 11.2311C8.02457 10.32 7.36136 9.19119 7.00898 7.95181C6.6566 6.71243 6.62672 5.40357 6.92219 4.1494C5.84629 4.72259 4.94652 5.57759 4.31923 6.62288C3.69194 7.66817 3.36074 8.86438 3.3611 10.0834V10.0834Z" fill="white"></path>
+</g> 
+</svg>
+</span> 
+
+
+	
+    <div class="d-flex flex-column"> 
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Leyikun G. Gebre </a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/LeonelG88109425" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/leyikun.gezahegn" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/leyikune_g/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://join.skype.com/invite/GGvLMNqeKQMG" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="https://www.linkedin.com/in/leyikun" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Leyikun G.</h1>
+      <p>I'm <span class="typed" data-typed-items="System Analyst, System Designer, Software Developer, Fullstack Developer, Freelancer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 class="targetTexts">About</h2>
+          <p>  
+		   Dedicated and results-driven Software Developer with 4<sup>+</sup> years of hands-on experience in the field. 
+           </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/leyikun.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3 class="targetTexts" >UI/UX Designer &amp; Web Developer.</h3>
+            <p class="fst-italic" style="text-align: justify;">
+              Passionate UI/UX designer with a keen eye for aesthetics and a user-centered design approach.    
+           Experienced web developer specializing in front-end and back-end technologies. Proficient in coding responsive and user-friendly websites and applications.  </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>12 May 1997</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="https://leyikun.github.io">leyikun.github.io </a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+251(0) 91 378 4287</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Hawassa, Ethiopia</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>28</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master Degree in Computer Science</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>leyikungezahegn@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p style="text-align: justify;">
+                Proven expertise in spearheading diverse system development projects at Individual, Institutional, Regional, and National levels. Adept at translating complex requirements into scalable and efficient software solutions. 
+		  	    My commitment to staying abreast of industry trends and technologies ensures that my skills remain cutting-edge.
+			</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 class="targetTexts">Facts</h2>
+          <p style="text-align: justify;">
+		  Dedicated professional with a strong passion for problem-solving and a commitment to delivering effective business solutions. Known for providing exceptional support, I thrive on tackling challenges and offering insightful trainings. My work ethic is marked by an unwavering commitment, often putting in more than 20 hours a day to ensure excellence in all endeavors.
+          </p>
+        </div>
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch sfx"  data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients & End-Users </strong> Customers </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch sfx" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects(+)</strong> delivered with high quality.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch sfx" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="2000" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours of Support</strong> </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch sfx" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1" class="purecounter">+</span>
+              <p><strong>Business Partners</strong> Individuals, Companies and Governmental.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg targetDivs  ">
+      <div class="container">
+
+        <div class="section-title ">
+          <h2 class="targetTexts">Skills</h2>
+          <p> 
+		Acquiring and analyzing user requirements, designing prototypes, creating system architectures, re-designing & developing systems, developing and managing local and international systems, raising awareness and providing system trainings, consulting individuals and businesses on systems and software products, and taking part in various academic activities like giving lectures are just a few of the skills I have.  
+	</p>
+	</div>
+
+        <div class="row skills-content ">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">97%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">PHP <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+			
+			
+            <div class="progress">
+              <span class="skill">Microsoft SQL Server <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+			
+			
+            <div class="progress">
+              <span class="skill">My SQL <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+
+
+            <div class="progress">
+              <span class="skill">Photoshop <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+
+            <div class="progress">
+              <span class="skill">Java <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Android <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div> 
+			
+            <div class="progress">
+              <span class="skill">C# <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div> 
+		  
+            <div class="progress">
+              <span class="skill">Python <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+			
+            <div class="progress">
+              <span class="skill">SQLite <i class="val">98%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+			
+            <div class="progress">
+              <span class="skill">MongoDb <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+			
+          </div>
+And much More ...
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 class="targetTexts">Resume</h2>
+          <p>
+
+		  
+		  </p>	
+		  </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title targetTexts" >Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4 class="targetTexts">Leyikun G.</h4>
+              <p><em>Innovative and deadline-driven Software Developer with 5+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <ul>
+                <li>Hawassa, Ethiopia</li>
+                <li>+251(0) 91 378 4287 </li>
+                <li>leyikungezahegn@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title targetTexts" >Education</h3>
+            <div class="resume-item">
+              <h4 class="targetTexts">Master of Science on Computer Science </h4>
+              <h5 class="balckText">2022 - Present </h5>
+              <p><em>Institute of Technology, Hawassa University, Ethiopia</em></p>
+              <p>
+				  With Distinction List of Status, Graduated from Hawassa University, thesis  research was on the field of Natural Language Processing (NLP),
+				  which is one of the hottest research area in our country and got "Very Good" Result. 
+			  </p>
+            </div>
+            <div class="resume-item">
+              <h4 class="targetTexts">Bachelor of Science in Computer Science</h4>
+              <h5 class="balckText">2016 - 2019</h5>
+              <p><em> Zion College of Technology and Business, Hawassa, Eth.</em></p>
+              <p> 
+			     With More than 28 A<sup> + </sup> and  Very great distinction CGPA, The Highest Score in Technology Faculty, and the Final Project was the <b> "Best Project of the Batch!" .</b>
+			  </p>
+
+             </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title targetTexts">Professional Experience</h3>
+            <div class="resume-item">
+              <h4 class="targetTexts">Software Developer</h4>
+              <h5 class="balckText">2020 - Present</h5>
+              <p><em>Hawassa University, Hawassa, Eth. </em></p>
+              <ul>
+	        <li>By researching and analysing, providing a best solution for a real-world problems for the Organization and for partnerships with HU.</li>
+                <li>Lead and participate in the analysis, design, development, implementation and testing of the various systems that are developed by our Institution. </li>
+                <li> Updating and upgrading our existing systems.</li>
+                <li>Giving Support and Trainings.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4 class="targetTexts">ZCTB, USC & RIC Colleges</h4>
+              <h5 class="balckText">2018 -  Present</h5>
+              <p><em> Instructor (Part-time Lecturing)</em></p>
+              <ul>  
+                <li>Giving Lectures. </li> 
+	        <li>Advising CS students on final projects. </li>
+                </ul>
+            </div>
+            <div class="resume-item">
+		
+              <h4 class="targetTexts">BRAVE Consultants, Engineers and Architects P.L.C. </h4>
+              <h5 class="balckText">2023 -  Present</h5>
+              <p><em> IT Expert, Consultant and Software Engineer. </em></p>
+             <ul>  
+                <li>Developing various systems based on the Client's Requirements.</li> 
+		<li>Giving Support and Trainings. </li>
+             </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg targetDivs">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 class="targetTexts">Portfolio</h2>
+          <p style="text-align: justify;"> 
+	     I have an extensive background in software development, having successfully created over 30 Android projects, More than 13 desktop applications, More than 25 professional websites, and More than 15 web-based applications. Additionally, I have contributed to the completion of more than 10 final projects for students from various educational institutes. <br> My diverse portfolio reflects a wealth of experience in delivering high-quality systems and applications across different platforms.
+	  </p>
+	</div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">System</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Sis_App.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+            <b style="margin-left:2px;" class="balckText">    30+ Android Applications </b>  <a href="assets/img/portfolio/Sis_App.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Including HU-SIS Android App, HU-SIS Android App for Disabled, HerApp, KEA-Dictionary, Kafecho Language and Tourist Sites App, ZCTB-AniversaryApp, PDF-Reader and many others"><i class="bx bx-link"></i></a>
+               
+              </div>
+            </div>
+          </div> 
+		  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/desktopMac.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+              <b style="margin-left:2px;" class="balckText"> 13+ Desktop Applications </b> <a href="assets/img/portfolio/desktopMac.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox col-md-12" title="Liyunet Software Solutions Ltd., Hera-Dailly,Abg-Memories, Hanny-App, Kid-Memories and many others">  <i class="bx bx-link"> </i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/web.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <b style="margin-left:2px;" class="balckText"> 25+ Professional Websites </b> <a href="assets/img/portfolio/web.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox col-md-12" title="Personal, Company, Institutional & Small Business Enterprise Websites">  <i class="bx bx-link"> </i></a>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/WebApp.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                   <b style="margin-left:2px;" class="balckText"> 15+ Web-based Apps </b> <a href="assets/img/portfolio/WebApp.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox col-md-12" title="<ul style='margin-left:-2px;'> <li> <a href='https://rims.hu.edu.et' target='_blank'>Hawassa University Research Info. Managemet System  </a> </li>  <li>Clinic Managemet System (3) </li> <li> Student Information Management System </li> <li> Stock Management System</li> <li> Trade Ragistration & Licensing Management System</li> <li> City Asset Management System </li> <li>  MyChatApp</li> <li> The Original & Re-Certification of IEAMIS National Project for <a href='https://services.eaes.et' target='_blank'> Educational Assessment and Examinations Service (EAES)  </a>  </li> <br> And many others">  <i class="bx bx-link"> </i></a>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/StudProj.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                  <b style="margin-left:2px;" class="balckText"> 10+ Advised on Student Final Projects </b> <a href="assets/img/portfolio/StudProj.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox col-md-12" title="Advising and Supporting Computer Science Graduate Students on their Final Projects For Free from different Educational Institutes.">  <i class="bx bx-link bx-sm"> </i></a>
+              </div>
+            </div>
+          </div>
+ 
+         
+ 
+        </div>
+ <div class="col-lg-12 col-md-12 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20220714_051758 - Copy.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                   <b style="margin-left:2px;"> And Continued ++ </b> <a href="assets/img/portfolio/leyk.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox col-md-12" title=" I am trying my best, until my last breath.">  <i class="bx bx-link bx-sm"> </i></a>
+             </div>
+            </div>
+          </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 class="targetTexts">Services</h2>
+          <p data-aos="fade-up"> <i>I'm the founder and Owner of <b> Liyunet Software Solutions Ltd. </b> I'm Providing services as listed below.  </i></p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-briefcase"></i></div>
+            <h4 class="title targetTexts"><a href="" class="targetTexts" style="text-align: center;">System & Software Consultancy</a></h4>
+            <p class="description">Software consultant, advises and assists clients with choosing, implementing, and optimizing software systems for their business needs and goals, So you have got a good consultant Ever!</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-list"></i></div>
+            <h4 class="title targetTexts"><a href="" class="targetTexts">System Requirement Gathering & Analysis</a></h4>
+            <p class="description">System analyst, collects and evaluates the needs and expectations of the stakeholders for a system development project, and documents them in a clear and consistent way, So you have got a good System Analyst already!</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+            <h4 class="title targetTexts"><a href=""class="targetTexts">System Designing</a></h4>
+            <p class="description"> Designing the architecture and components of a software system to meet specific business requirements and objectives and you have atleast the nicest designer Ever!</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title targetTexts"><a href=""class="targetTexts">Website Development</a></h4>
+            <p class="description"> Website Development for product promotion and personal portfolio with high quality and security. Developing a website that showcases your skills, services, and projects to potential clients or employers with free web-hosting, so don't think about your product's promotion just contact me .... </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-binoculars"></i></div>
+            <h4 class="title targetTexts"><a href="" class="targetTexts">System Re-Designing</a></h4>
+            <p class="description"> If you have any old system(s), I can re-design based on your needs, fixing the problems of the current system, or even I can replace with the newest one, I'm here for you!</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-brightness-high"></i></div>
+            <h4 class="title targetTexts"><a href="" class="targetTexts">Help And Support</a></h4>
+            <p class="description"> I am Available 24/7 to support you, If you are Business partner I'll be even more Available for you <i class="bi bi-clock"></i> .....  </p>
+          </div> 
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+		<img src="assets/img/certificate.jpg"  width="700" height="400" >
+		<img src="assets/img/RIMS.jpg"  width="700" height="400" >
+          <p>  Remainings Coming soon....</p>
+		  </div>
+
+        
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact ">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 class="targetTexts">Contact</h2>
+          <p> If you have any projects or sub-projects, you have got a good analyst, designer, programmer and tester.... Please Feel free to contact me.  </p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch targetDivs">
+            <div class="info targetDivs">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Hawassa, Ethiopia</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>leyikungezahegn@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+251(0) 91 378 4287</p>
+              </div>
+ 
+			 
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d294.302237511016!2d38.496874951647996!3d7.051151919584975!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17b14f518aaf3b2d%3A0xf56abdca1fa3cb17!2sHead%20office!5e0!3m2!1sen!2set!4v1706179472314!5m2!1sen!2set" style="border:0; width: 100%; height: 290px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch targetDivs">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+     <input type="hidden" id="statusChecker" value="0">
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        <!-- &copy; Copyright <strong><span>Leyikun Gezahegn</span></strong> -->
+		 <p id="currentYear"></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+          by <a href="https://github.com/leyikun" target="_blank">Leyikun G.</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+   
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+	<style>
+          
+        button{
+            cursor: pointer;
+            border: 1px solid #555;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px; 
+        }
+        .dark{
+            background-color: #222;
+            color: #e6e6e6;
+        }
+    </style>
+
+    <script>
+        // JavaScript code to display the current year
+        var currentYear = new Date().getFullYear();
+        document.getElementById("currentYear").innerHTML = "© " + currentYear + " Leyikun Gezahegn";
+    </script> 
+	<script src="assets/js/jquery.min.js"></script> 
+     <script>
+        function myFunction() {
+        //  var checker = $('#statusChecker').val();
+		//  if( checker == 0){
+		  
+ 		   let element = document.body;
+            element.classList.toggle("dark");
+			$('.skill').addClass("text-white");
+			$('.targetTexts').addClass("text-white");
+			$('.targetDivs').addClass("dark");
+			$('.balckText').addClass("text-black"); 
+			$('.sfx').addClass("bg-white"); 
+			$('#statusChecker').val('1');
+			//  themeSwitcherDark
+
+			     $('#themeSwitcherWhite').show( );
+				 $('#themeSwitcherDark').hide( );
+			//} 
+			
+        }
+		function whiteBg(){
+			// back to default
+				$('.skill').removeClass("text-white");
+				$('.targetDivs').removeClass("dark");
+				$('.targetTexts').removeClass("text-white");
+				
+				  $('#themeSwitcherWhite').hide( );
+				  $('#themeSwitcherDark').show( );
+				$('#statusChecker').val('0')
+				
+			}
+    </script>
+</body>
+
+</html>
